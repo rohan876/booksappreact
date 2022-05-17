@@ -19,6 +19,9 @@ const Head = () => {
         <li className="nav-item">
           <Link className="nav-link active" to={"/search"}>Search Book</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link active" to={"/view"}>View Book</Link>
+        </li>
         
       </ul>
     </div>
